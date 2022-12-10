@@ -16,10 +16,10 @@ int main(void)
 	long int linTeger;
 	long long int llinTeger;
 
-	printf("Size of a char: %d", sizeof(chaRacter));
-	printf("Size of an int: %d", sizeof(inTeger));
-	printf("Size of a float: %d", sizeof(floatData));
-	printf("Size of a long int: %d", sizeof(linTeger));
-	printf("Size of a long long int: %d", sizeof(llinTeger));
+	printf("Size of a char: %d byte(s)\n", sizeof(chaRacter));
+	printf("Size of an int: %d byte(s)\n", sizeof(inTeger));
+	printf("Size of a float: %d byte(s)\n", sizeof(floatData));
+	printf("Size of a long int: %d byte(s)\n", sizeof(linTeger));
+	printf("Size of a long long int: %d bytes(s)\n", sizeof(llinTeger));
 	return (0);
 }
