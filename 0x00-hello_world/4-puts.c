@@ -2,6 +2,7 @@
 /**
  * main - main function body
  * puts - fuction to print to output
+ * Return: 0 if the code runs perfectly
  */
 int main(void)
 {
