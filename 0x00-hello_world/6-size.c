@@ -19,7 +19,7 @@ int main(void)
 	printf("Size of a char: %u byte(s)\n", sizeof(chaRacter));
 	printf("Size of an int: %u byte(s)\n", sizeof(inTeger));
 	printf("Size of a long int: %u byte(s)\n", sizeof(linTeger));
-	printf("Size of a long long int: %u bytes(s)\n", sizeof(llinTeger));
+	printf("Size of a long long int: %u byte(s)\n", sizeof(llinTeger));
 	printf("Size of a float: %u byte(s)\n", sizeof(floatData));
 	return (0);
 }
