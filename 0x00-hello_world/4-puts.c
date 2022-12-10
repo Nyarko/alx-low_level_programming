@@ -1,6 +1,7 @@
 #include <stdio.h>
-/*
- * main -  contains puts functions which is an output function
+/**
+ * main - main function body
+ * puts - fuction to print to output
  */
 int main(void)
 {
