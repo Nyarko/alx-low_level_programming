@@ -3,9 +3,9 @@
 /**
  * _strlen - checks string length
  * @s: the variable to work with
- * Return: not a necessity for void functions
+ * Return: returns the length calculated
  */
 int _strlen(char *s)
 {
-	strlen(s);
+	return strlen(*s);
 }
