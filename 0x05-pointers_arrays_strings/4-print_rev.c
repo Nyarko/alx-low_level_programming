@@ -10,11 +10,12 @@
 
 void print_rev(char *s)
 {
+	char revEd;
 	int lastIndex = strlen(s) - 1;
 	
-	for (lastIndex; lastIndex >= 0; LastIndex--)
+	for (lastIndex; lastIndex >= 0; lastIndex--)
 	{
-		char revEd = s[lastIndex];
+		revEd = s[lastIndex];
 	}
 	puts(revEd);
 }
