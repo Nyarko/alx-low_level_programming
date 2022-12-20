@@ -11,7 +11,7 @@
 
 void print_rev(char *s)
 {
-	char revEd;
+	char *revEd;
 	int lastIndex = strlen(s) - 1;
 	
 	for (; lastIndex >= 0; lastIndex--)
