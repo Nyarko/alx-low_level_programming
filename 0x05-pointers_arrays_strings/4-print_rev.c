@@ -13,7 +13,7 @@ void print_rev(char *s)
 	char revEd;
 	int lastIndex = strlen(s) - 1;
 	
-	for (lastIndex; lastIndex >= 0; lastIndex--)
+	for (; lastIndex >= 0; lastIndex--)
 	{
 		revEd = s[lastIndex];
 	}
