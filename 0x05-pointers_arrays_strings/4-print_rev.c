@@ -1,5 +1,5 @@
 #include <string.h>
-#include <stdio.h>
+#include "_putchar.c"
 /**
  * print_rev - function to print string in reverse
  * @s: variable to be printed
