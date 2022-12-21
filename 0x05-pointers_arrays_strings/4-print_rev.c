@@ -1,5 +1,5 @@
 #include <string.h>
-/*#include "_putchar.c"*/
+#include "_putchar.c"
 #include <unistd.h>
 
 /**
