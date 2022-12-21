@@ -16,7 +16,7 @@ void print_rev(char *s)
 	
 	for (; lastIndex >= 0; lastIndex--)
 	{
-		revEd = *s[lastIndex];
+		revEd = &s[lastIndex];
 		_putchar(*revEd);
 	}
 }
