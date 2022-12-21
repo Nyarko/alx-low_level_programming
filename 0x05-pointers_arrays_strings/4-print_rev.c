@@ -9,8 +9,6 @@ int _putchar(char c);
  * @lastIndex: last index of the string
  * @revEd: variable to store reversed items
  * _putchar - manual function
- * @c: the character to print
- * @b: new line variable
  * Return: no return for void function
  */
 
@@ -19,7 +17,7 @@ void print_rev(char *s)
 	char *revEd;
 	int lastIndex = strlen(s) - 1;
 	char b = '\n';
-	
+
 	for (; lastIndex >= 0; lastIndex--)
 	{
 		revEd = &s[lastIndex];
