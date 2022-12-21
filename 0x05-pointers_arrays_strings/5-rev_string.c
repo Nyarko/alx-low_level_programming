@@ -11,6 +11,7 @@ void rev_string(char *s)
 	char *revEd[(strlen(s) + 1)];
 	int lastIndex = strlen(s) - 1;
 	int i = 0;
+	int j;
 
 	for (; lastIndex >= 0; lastIndex--)
 	{
@@ -18,7 +19,7 @@ void rev_string(char *s)
 		i++;
 	}
 
-	for (int j = 0; j < strlen(s); j++)
+	for (j = 0; j < strlen(s); j++)
 	{
 		s[j] = *revEd[j];
 	}
