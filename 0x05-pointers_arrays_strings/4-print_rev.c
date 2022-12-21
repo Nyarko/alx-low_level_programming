@@ -6,8 +6,6 @@ int _putchar(char c);
 /**
  * print_rev - function to print string in reverse
  * @s: variable to be printed
- * @lastIndex: last index of the string
- * @revEd: variable to store reversed items
  * _putchar - manual function
  * Return: no return for void function
  */
