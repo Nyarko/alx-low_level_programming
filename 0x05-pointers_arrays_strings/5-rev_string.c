@@ -1,5 +1,5 @@
 #include <string.h>
-
+#include <stdio.h>
 /**
  * rev_string - function to print string in reverse
  * @s: variable to be printed
@@ -8,8 +8,9 @@
 
 void rev_string(char *s)
 {
+	int arraySize = sizeof(s);
 	int sLen = (int)strlen(s);
-	char *revEd[sLen];
+	char *revEd[arraySize];
 	int lastIndex = strlen(s) - 1;
 	int i = 0;
 	int j;
