@@ -36,7 +36,7 @@ int _strcmp(char *s1, char *s2)
 		}
 		else if (s2[j] == '\0')
 		{
-			return (0);
+			return (charNum);
 		}
 	}
 }
