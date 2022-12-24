@@ -2,8 +2,8 @@
 
 /**
  * _strcat - function to concatenate strings
- * @dLen: length of dest
- * @sLen: length of src
+ * @dest: destination variable
+ * @src: source variable
  * Return: the concatenated string is returned.
  */
 
@@ -18,5 +18,5 @@ char *_strcat(char *dest, char *src)
 		dest[dLen + i] = src[i];
 	}
 	dest[dLen + sLen + 1] = '\0';
-	return dest;	
+	return (dest);
 }
