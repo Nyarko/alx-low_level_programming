@@ -21,9 +21,9 @@ int _strcmp(char *s1, char *s2)
 
 		charNum += n;
 	}
-	for (j = 0; j < s2Len && s2[i] != '\0'; j++)
+	for (j = 0; j < s2Len && s2[j] != '\0'; j++)
 	{
-		int m = s2[i];
+		int m = s2[j];
 
 		charNum -= m;
 	}
