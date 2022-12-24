@@ -2,7 +2,8 @@
 
 /**
  * _strcmp - function to compare strings
- * @charNum: variable to store comparison value
+ * @s1: variable for first string
+ * @s2: variable for second string
  * Return: the charNum is returned.
  */
 
@@ -17,11 +18,13 @@ int _strcmp(char *s1, char *s2)
 	for (i = 0; i < s1Len && s1[i] != '\0'; i++)
 	{
 		int n = s1[i];
+
 		charNum += n;
 	}
 	for (j = 0; j < s2Len && s2[i] != '\0'; j++)
 	{
 		int m = s2[i];
+
 		charNum -= m;
 	}
 	return (charNum);
