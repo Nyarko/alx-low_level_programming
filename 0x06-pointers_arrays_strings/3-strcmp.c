@@ -20,13 +20,11 @@ int _strcmp(char *s1, char *s2)
 	for (i = 0; i < s1Len && s1[i] != '\0'; i++)
 	{
 		n = s1[i];
-
 		charNum += n;
 
 		for (j = i; j < s2Len && s2[j] != '\0'; j++)
 		{
 			m = s2[j];
-
 			charNum -= m;
 
 			if (charNum > 0)
@@ -39,9 +37,8 @@ int _strcmp(char *s1, char *s2)
 			}
 			else if (s2[j] == '\0')
 			{
-				return(0);
+				return (0);
 			}
-
 		}
 	}
 }
