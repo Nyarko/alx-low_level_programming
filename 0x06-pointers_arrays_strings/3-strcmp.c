@@ -15,17 +15,21 @@ int _strcmp(char *s1, char *s2)
 	int i;
 	int j;
 
-	for (i = 0; i < s1Len && s1[i] != '\0'; i++)
+	while (charNum == 0 && i < (s1Len + 1))
 	{
-		int n = s1[i];
+		for (i = 0; i < s1Len && s1[i] != '\0'; i++)
+		{
+			int n = s1[i];
 
-		charNum += n;
-	}
-	for (j = 0; j < s2Len && s2[j] != '\0'; j++)
-	{
-		int m = s2[j];
+			charNum += n;
 
-		charNum -= m;
+			for (j = i; j < s2Len && s2[j] != '\0'; j++)
+			{
+				int m = s2[j];
+
+				charNum -= m;
+			}
+		}
 	}
 	return (charNum);
 }
