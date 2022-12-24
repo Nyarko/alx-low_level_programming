@@ -11,7 +11,6 @@ int _strcmp(char *s1, char *s2)
 {
 	int charNum;
 	int s1Len = strlen(s1);
-	int s2Len = strlen(s2);
 	int i;
 	int j;
 	int n;
@@ -25,10 +24,6 @@ int _strcmp(char *s1, char *s2)
 		{
 			m = s2[j];
 			charNum = n - m;
-			else if (s2[j] == '\0')
-			{
-				return (0);
-			}
 		}
 
 		if (charNum > 0)
