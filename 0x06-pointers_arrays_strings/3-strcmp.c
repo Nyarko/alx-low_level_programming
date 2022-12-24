@@ -20,25 +20,28 @@ int _strcmp(char *s1, char *s2)
 	for (i = 0; i < s1Len && s1[i] != '\0'; i++)
 	{
 		n = s1[i];
-		charNum += n;
 
-		for (j = i; j < s2Len && s2[j] != '\0'; j++)
+		for (j = i; j < (i + 1); j++)
 		{
 			m = s2[j];
-			charNum -= m;
-
-			if (charNum > 0)
-			{
-				return (charNum);
-			}
-			else if (charNum < 0)
-			{
-				return (charNum);
-			}
+			charNum = n - m;
 			else if (s2[j] == '\0')
 			{
 				return (0);
 			}
+		}
+
+		if (charNum > 0)
+		{
+			return (charNum);
+		}
+		else if (charNum < 0)
+		{
+			return (charNum);
+		}
+		else if (s2[j] == '\0')
+		{
+			return (0);
 		}
 	}
 }
