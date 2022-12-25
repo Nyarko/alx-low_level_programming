@@ -15,6 +15,7 @@ int _strcmp(char *s1, char *s2)
 	int j;
 	int n;
 	int m;
+	int a;
 
 	for (i = 0; i < s1Len && s1[i] != '\0'; i++)
 	{
@@ -39,4 +40,6 @@ int _strcmp(char *s1, char *s2)
 			return (charNum);
 		}
 	}
+	a = charNum;
+	return (a);
 }
