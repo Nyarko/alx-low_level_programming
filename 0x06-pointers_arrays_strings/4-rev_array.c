@@ -1,29 +1,31 @@
 #include <stdio.h>
-#include <string.h>
+
+int _putchar(char c);
 
 /**
  * reverse_array - function to reverse an array
  * @a: array variable
  * @n: size variable
+ * _putchar - printing function
  * return - no return value for void function
  */
 
 void reverse_array(int *a, int n)
 {
-	int arrSize = n;
-	int *b[arrSize];
+	int *b;
 	int i;
 	int j = 0;
 
 	for (i = n - 1; i >= 0; i--)
 	{
-		b[j] = &a[i];
-		if (j != 0 && j < n)
+		b = &a[i];
+		if (*b != 0 && j < n)
 		{
-			printf(", ");
+			_putchar(",");
+			_putchar(" ");
 		}
-		printf("%d", *b[j]);
+		_putchar(*b);
 		j++;
 	}
-	printf("\n");
+	_putchar("\n");
 }	
