@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <string.h>
 
 /**
@@ -9,7 +10,8 @@
 
 void reverse_array(int *a, int n)
 {
-	int *b[n];
+	int arrSize = n;
+	int *b[arrSize];
 	int i;
 	int j = 0;
 
