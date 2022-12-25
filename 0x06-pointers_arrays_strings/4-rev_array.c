@@ -15,6 +15,9 @@ void reverse_array(int *a, int n)
 	int *b;
 	int i;
 	int j = 0;
+	char coma = ",";
+	char spAce = " ";
+	char nLine = '\n';
 
 	for (i = n - 1; i >= 0; i--)
 	{
@@ -27,5 +30,5 @@ void reverse_array(int *a, int n)
 		_putchar(*b);
 		j++;
 	}
-	_putchar("\n");
+	_putchar(nLine);
 }	
