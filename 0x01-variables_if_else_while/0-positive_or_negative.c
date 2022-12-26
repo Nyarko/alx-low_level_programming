@@ -1,8 +1,17 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
+#include <stdio.h>
 
 /* betty style doc for function main goes there */
+
+/**
+ * main - the main function
+ * @n: variable in main function
+ *
+ * return - value returned is zero
+ */
+
 int main(void)
 {
 	int n;
