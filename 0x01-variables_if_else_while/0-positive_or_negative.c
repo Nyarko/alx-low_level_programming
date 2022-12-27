@@ -8,7 +8,7 @@
 /**
  * main - the main function
  *
- * Return - value returned is zero
+ * Return: value returned is zero
  */
 
 int main(void)
