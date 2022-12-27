@@ -21,7 +21,6 @@ int main(void)
 
 	/* your code goes there */
 	int lDig;
-	int a;
 	
 	lDig = n[(sizeof(n) - 1)];
 
