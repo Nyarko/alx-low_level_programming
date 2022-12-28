@@ -25,6 +25,7 @@ int main(void)
 					putchar(j);
 					putchar(' ');
 					putchar(k);
+					putchar(l);
 
 					if (i != 55)
 					{
