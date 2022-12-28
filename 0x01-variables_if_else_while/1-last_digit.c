@@ -23,7 +23,7 @@ int runFunc (int n)
 
 	for (divAmount; n / divAmount > 0; divAmount *= 10)
 	{
-		divAttempts++;
+		divAttempts += 1;
 	}
 
 	for (divAttempts; divAttempts > 0; divAttempts--)
