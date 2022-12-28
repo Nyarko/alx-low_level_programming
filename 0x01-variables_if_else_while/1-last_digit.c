@@ -21,12 +21,12 @@ int runFunc (int n)
 	int divAmount = 1;
 	int lastDig = 0;
 
-	for (divAmount; n / divAmount > 0; divAmount *= 10)
+	for (; n / divAmount > 0; divAmount *= 10)
 	{
 		divAttempts += 1;
 	}
 
-	for (divAttempts; divAttempts > 0; divAttempts--)
+	for (; divAttempts > 0; divAttempts--)
 	{
 		n %= divAmount;
 		divAmount /= 10;
