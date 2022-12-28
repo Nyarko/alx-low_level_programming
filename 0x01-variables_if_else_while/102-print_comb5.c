@@ -15,11 +15,11 @@ int main(void)
 
 	for (i = 48; i <= 57; i++)
 	{
-		for (j = i + 1; j <= 57; j++)
+		for (j = 48; j <= 57; j++)
 		{
-			for (k = j + 1; k <= 57; k++)
+			for (k = i + 1; k <= 57; k++)
 			{
-				for (l = k + 1; l <= 57; l++)
+				for (l = j + 1; l <= 57; l++)
 				{
 					putchar(i);
 					putchar(j);
