@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-int runFunc (int n);
+int runFunc(int n);
 
 /* betty style doc for function main goes there */
 
@@ -15,7 +15,7 @@ int runFunc (int n);
  * Return: last digit is returned
  */
 
-int runFunc (int n)
+int runFunc(int n)
 {
 	int divAttempts = 0;
 	int divAmount = 1;
