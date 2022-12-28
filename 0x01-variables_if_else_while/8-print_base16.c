@@ -9,17 +9,13 @@
 int main(void)
 {
 	int hex;
-	int i;
 
-	for (hex = 0; hex < 16; hex++)
+	for (hex = 48; hex <= 57; hex++)
 	{
-		if (hex > 9)
-		{
-			for (i = 97; i <= 102; i++)
-			{
-				putchar(i);
-			}
-		}
+		putchar(hex);
+	}
+	for (hex = 97; hex <= 102; hex++)
+	{
 		putchar(hex);
 	}
 	putchar('\n');
