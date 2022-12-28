@@ -57,8 +57,9 @@ int main(void)
 	
 	if (n < 0)
 	{
-		/*n *= -1;*/
+		n *= -1;
 		lDig = -1 * runFunc(n);
+		n *= -1;
 	}
 	else
 	{
