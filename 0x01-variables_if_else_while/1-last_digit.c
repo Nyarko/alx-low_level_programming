@@ -54,6 +54,8 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	/* your code goes there */
+
+	/* this part computes for last digit */
 	if (n < 0)
 	{
 		n *= -1;
@@ -64,7 +66,8 @@ int main(void)
 	{
 		lDig = runFunc(n);
 	}
-	
+
+	/* this part prints to output */
 	if (lDig > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, lDig);
