@@ -15,15 +15,13 @@ int main(void)
 	{
 		for (j = 48; j <= 57; j++)
 		{
-			if (i == 48 && j == 48)
+			if (i != j)
 			{
-				j += 1;
+				putchar(i);
+				putchar(j);
+				putchar(',');
+				putchar(' ');
 			}
-			
-			putchar(i);
-			putchar(j);
-			putchar(',');
-			putchar(' ');
 		}
 	}
 	putchar('\n');
