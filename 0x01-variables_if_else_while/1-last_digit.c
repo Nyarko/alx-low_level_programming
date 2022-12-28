@@ -53,7 +53,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	/* your code goes there */
-	int lDig;
+	int lDig = 0;
 	
 	if (n < 0)
 	{
