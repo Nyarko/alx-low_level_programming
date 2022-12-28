@@ -48,12 +48,12 @@ int runFunc (int n)
 int main(void)
 {
 	int n;
+	int lDig = 0;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
 	/* your code goes there */
-	int lDig = 0;
 	
 	if (n < 0)
 	{
