@@ -18,7 +18,7 @@ int main(void)
 			putchar(i);
 			putchar(j);
 
-			if (i * j !> 3192)
+			if (i + j != 17)
 			{
 				putchar(',');
 				putchar(' ');
