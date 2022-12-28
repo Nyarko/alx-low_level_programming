@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+/**
+ * main - the overall function
+ *
+ * Return: zero is returned
+ */
+
+int main(void)
+{
+	int i;
+
+	for (i = 0; i < 10; i++)
+	{
+		printf("%d", i);
+	}
+	printf('\n');
+	return (0);
+}
