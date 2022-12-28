@@ -15,7 +15,7 @@ int main(void)
 	{
 		if (hex > 9)
 		{
-			for (i = 97, i <= 102; i++)
+			for (i = 97; i <= 102; i++)
 			{
 				putchar(i);
 			}
