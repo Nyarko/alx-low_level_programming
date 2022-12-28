@@ -17,8 +17,12 @@ int main(void)
 		{
 			putchar(i);
 			putchar(j);
-			putchar(',');
-			putchar(' ');
+
+			if (i * j != 72)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
