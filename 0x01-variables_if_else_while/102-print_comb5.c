@@ -12,12 +12,13 @@ int main(void)
 	int j;
 	int k;
 	int l;
+	int suMin;
 
 	for (i = 48; i <= 57; i++)
 	{
 		for (j = 48; j <= 57; j++)
 		{
-			for (k = i + 1; k <= 57; k++)
+			for (k = 48; k <= 57; k++)
 			{
 				for (l = j + 1; l <= 57; l++)
 				{
@@ -27,7 +28,9 @@ int main(void)
 					putchar(k);
 					putchar(l);
 
-					if (i != 55)
+					suMin = i + j + k + l;
+
+					if (suMin != 227)
 					{
 						putchar(',');
 						putchar(' ');
