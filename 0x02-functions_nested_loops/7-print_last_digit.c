@@ -10,13 +10,14 @@
 int print_last_digit(int n)
 {
 	int m;
-
-	if (n < 0)
+	int a = n;
+	
+	if (a < 0)
 	{
-		n *= -1;
+		a *= -1;
 	}
 
-	m = n % 10;
+	m = a % 10;
 
 	_putchar(48 + m);
 	return (m);
