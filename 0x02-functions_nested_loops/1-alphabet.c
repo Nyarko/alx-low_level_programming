@@ -1,3 +1,5 @@
+int _putchar(char c);
+
 /**
  * print_alphabet - function to print the alphabet
  *
@@ -12,5 +14,5 @@ void print_alphabet(void)
 	{
 		_putchar(a);
 	}
-	_putchar('\n');
+	/*_putchar('\n');*/
 }	
