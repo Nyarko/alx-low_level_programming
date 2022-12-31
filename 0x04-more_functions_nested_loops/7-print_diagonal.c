@@ -9,7 +9,6 @@
 
 void print_diagonal(int n)
 {
-	int c = 92;
 	int i;
 	int j;
 	/* code goes here */
