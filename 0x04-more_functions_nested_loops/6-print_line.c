@@ -7,7 +7,7 @@
  * Return: no return value for void function
  */
 
-void more_numbers(int n)
+void print_line(int n)
 {
 	int c = 95;
 	int i;
