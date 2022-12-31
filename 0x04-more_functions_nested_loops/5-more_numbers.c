@@ -8,7 +8,7 @@
 
 void more_numbers(void)
 {
-	int c = 48;
+	int c;
 	int i = 0;
 	int j = 0;
 	/* code goes here */
@@ -25,6 +25,6 @@ void more_numbers(void)
 			_putchar(c);
 			c++;
 		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
