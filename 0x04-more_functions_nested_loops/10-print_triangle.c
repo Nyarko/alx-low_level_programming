@@ -19,6 +19,7 @@ void print_triangle(int size)
 	}
 	else
 	{
+		i = 1;
 		while (i <= size)
 		{
 			j = size;
@@ -28,7 +29,7 @@ void print_triangle(int size)
 				j--;
 			}
 			hash = 0;
-			while (hash < i * 2 - 1)
+			while (hash < i)
 			{
 				_putchar('#');
 				hash++;
