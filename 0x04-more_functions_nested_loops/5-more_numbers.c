@@ -12,8 +12,9 @@ void more_numbers(void)
 	int i = 0;
 	int j = 0;
 	/* code goes here */
-	for (; i < 10; i++)
+	while (i < 10)
 	{
+		c = 48;
 		for (; j < 14; j++)
 		{
 			if (c >= 58 || j > 9)
@@ -26,5 +27,6 @@ void more_numbers(void)
 			c++;
 		}
 		_putchar('\n');
+		i++;
 	}
 }
