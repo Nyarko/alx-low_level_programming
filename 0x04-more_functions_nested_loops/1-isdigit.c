@@ -17,7 +17,7 @@ int _isdigit(int c)
 	}
 	else
 	{
-		retval = 0;
+		retVal = 0;
 	}
 	return (retVal);
 }
