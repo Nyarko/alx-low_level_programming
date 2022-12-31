@@ -8,20 +8,22 @@
 
 void more_numbers(void)
 {
-	int printIt(int m)
-	{
-		_putchar(m);
-	}
 	int c = 48;
 	int i = 0;
-	int j = 48;
+	int j = 0;
 	/* code goes here */
 	for (; i < 10; i++)
 	{
-		if (c <= 57)
+		for (; j < 14; j++)
 		{
-			_putchar(c + i);
-		}
+			if (c >= 58 || j > 9)
+			{
+				c = 48;
+				_putchar(49);
+				c += j - 10;
+			}
+			_putchar(c);
+			c++;
 	}
-	printIt('\n');
+	_putchar('\n');
 }
