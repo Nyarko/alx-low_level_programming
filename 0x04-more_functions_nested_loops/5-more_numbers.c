@@ -15,7 +15,7 @@ void more_numbers(void)
 	while (i < 10)
 	{
 		c = 48;
-		for (; j < 14; j++)
+		for (; j < 15; j++)
 		{
 			if (c >= 58 || j > 9)
 			{
