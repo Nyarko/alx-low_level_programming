@@ -8,25 +8,25 @@
 
 void more_numbers(void)
 {
-	int c;
-	int i = 0;
-	int j = 0;
+	int c = 48;
+	int i;
+	int j;
 	/* code goes here */
-	while (i < 10)
+	for (i = 0; i < 10; i++)
 	{
 		c = 48;
-		for (; j < 15; j++)
+		for (j = 0; j < 15; j++)
 		{
 			if (c >= 58 || j > 9)
 			{
 				c = 48;
 				_putchar(49);
 				c += j - 10;
+				break;
 			}
 			_putchar(c);
 			c++;
 		}
 		_putchar('\n');
-		i++;
 	}
 }
