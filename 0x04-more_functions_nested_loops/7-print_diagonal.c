@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_diagonal - function to print numbers
+ * print_diagonal - printing diagonals
  * @n: number from buffer
  *
  * Return: no return value for void function
