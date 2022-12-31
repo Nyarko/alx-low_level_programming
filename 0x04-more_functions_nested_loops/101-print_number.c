@@ -12,7 +12,7 @@ void print_number(int n)
 	int diver = 1;
 	int counter = 1;
 
-	for (; diver <= score / 10; diver *= 10)
+	for (; diver <= n / 10; diver *= 10)
 	{
 		counter = counter + 1;
 	}
@@ -22,5 +22,5 @@ void print_number(int n)
 		_putchar(n + 48);
 		diver /= 10;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
