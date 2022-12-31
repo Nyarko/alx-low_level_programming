@@ -22,7 +22,6 @@ void more_numbers(void)
 				c = 48;
 				_putchar(49);
 				c += j - 10;
-				break;
 			}
 			_putchar(c);
 			c++;
