@@ -11,7 +11,7 @@ void print_number(int n)
 {
 	/* initialising variables */
 	int m = 0;
-	int o = n;
+	int o = 0;
 	int diver = 1;
 	int counter = 1;
 	/* starting with printing digits below 10 */
