@@ -36,6 +36,6 @@ int main(void)
 		}
 		i++;
 	}
-	printf("%d\n", m);
+	printf("%ld\n", m);
 	return (0);
 }
