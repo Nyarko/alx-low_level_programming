@@ -5,7 +5,7 @@
  * @a: first parameter
  * @b: second parameter
  *
- * return: function returns the result
+ * Return: function returns the result
  */
 
 int add(int a, int b)
