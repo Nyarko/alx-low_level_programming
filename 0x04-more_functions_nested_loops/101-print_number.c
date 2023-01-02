@@ -41,14 +41,11 @@ void print_number(int n)
 			m = o / diver;
 			m += 48;
 			_putchar(m);
-
 			/* resetting m */
 			m -= 48;
-
 			/* updating 'o' for next use */
 			m *= diver;
 			m = o - m;
-
 			/* handler for zeros before last digit */
 			if (m < (diver / 10))
 			{
