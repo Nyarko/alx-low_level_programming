@@ -46,12 +46,6 @@ void print_number(int n)
 			/* updating 'o' for next use */
 			m *= diver;
 			m = o - m;
-			/* handler for zeros before last digit */
-			if (m < (diver / 10))
-			{
-				_putchar(48);
-			}
-
 			/* reducing diver for next use */
 			diver /= 10;
 			o = m;
