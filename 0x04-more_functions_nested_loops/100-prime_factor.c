@@ -10,8 +10,8 @@
 int main(void)
 {
 	/* initialising variables */
-	long long int n = 612852475143;
-	long long int i = 1;
+	long int n = 612852475143;
+	long int i = 1;
 	long int m = 0;
 	/* loop to find prime factor */
 	while (i <= n + 1)
@@ -31,6 +31,6 @@ int main(void)
 		}
 		i++;
 	}
-	printf("%ld\n");
+	printf("%ld\n", m);
 	return (0);
 }
