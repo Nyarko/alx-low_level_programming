@@ -26,11 +26,12 @@ int main(void)
 			{
 				if ((i % p) == 1)
 				{
+					m = i;
 					/* assign largest factor */
-					if (i > m)
+					/*if (i > m)
 					{
 						m = i;
-					}
+					}*/
 				}
 			}
 		}
