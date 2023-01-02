@@ -52,5 +52,4 @@ void print_number(int n)
 			counter--;
 		}
 	}
-	_putchar('\n');
 }
