@@ -38,15 +38,7 @@ void print_number(int n)
 		/* code to print digits */
 		while (counter > 0)
 		{
-			/* this runs when digit < 10 */
-			if (o > 0 && o < 10)
-			{
-				m %= diver;
-			}
-			else
-			{
-				m = o / diver;
-			}
+			m = o / diver;
 			m += 48;
 			_putchar(m);
 
