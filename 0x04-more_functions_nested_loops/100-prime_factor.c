@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <limits.h>
+#include <math.h>
 
 /**
  * main - function to print largest prime factor
@@ -13,6 +14,7 @@ int main(void)
 	long int n = 612852475143;
 	long int i = 1;
 	long int m = 0;
+	long int p;
 	/* loop to find prime factor */
 	while (i <= n + 1)
 	{
@@ -20,17 +22,20 @@ int main(void)
 		if (n % i == 0)
 		{
 			/* to find prime factors */
-			if (i % 2 == 1)
+			for (p = 2; p <= sqrt(i); p++)
 			{
-				/* assign largest factor */
-				if (i > m)
+				if ((i % p) == 1)
 				{
-					m = i;
+					/* assign largest factor */
+					if (i > m)
+					{
+						m = i;
+					}
 				}
 			}
 		}
 		i++;
 	}
-	printf("%ld\n", m);
+	printf("%d\n", m);
 	return (0);
 }
