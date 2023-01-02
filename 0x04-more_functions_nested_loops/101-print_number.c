@@ -22,6 +22,13 @@ void print_number(int n)
 	}
 	else
 	{
+		/* checking for negative input */
+		if (n < 0)
+		{
+			n *= -1;
+			o = n;
+			_putchar(45);
+		}
 		/* getting value for how many times to run */
 		while (diver <= n / 10)
 		{
