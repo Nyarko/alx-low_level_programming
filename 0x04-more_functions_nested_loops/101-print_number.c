@@ -19,7 +19,7 @@ void print_number(int n)
 	if (n < 10)
 	{
 		m += n + 48;
-		putchar(m);
+		_putchar(m);
 	}
 	else
 	{
