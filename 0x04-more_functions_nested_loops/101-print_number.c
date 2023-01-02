@@ -39,7 +39,7 @@ void print_number(int n)
 		while (counter > 0)
 		{
 			/* this runs when digit < 10 */
-			if (n < 10)
+			if (o > 0 && o < 10)
 			{
 				m %= diver;
 			}
